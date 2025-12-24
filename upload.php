@@ -16,7 +16,11 @@ $postData = [
 
     'time' => '24h',
 
-    'fileToUpload' => new CURLFile($_FILES['video']['tmp_name'])
+    'fileToUpload' => new CURLFile(
+    $_FILES['video']['tmp_name'],
+    $_FILES['video']['type'],
+    $_FILES['video']['name']
+) 
 
 ];
 
