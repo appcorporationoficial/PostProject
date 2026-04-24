@@ -50,7 +50,7 @@ $title = "Video " . date("Y-m-d H-i-s");
 
 // 3️⃣ Miniatura fija
 
-$thumbnail = "https://tusitio.infinityfreeapp.com/thumb.jpg";
+$thumbnail = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHtGwF6l6jdLbSiQ66XjtUJdF7ND6rN9I048ro1rHP3Q&s=10";
 
 // 4️⃣ Nuevo registro
 
